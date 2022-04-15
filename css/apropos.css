@@ -1,0 +1,91 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+.hero{
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+    background-size: cover;
+    background-position: center;
+
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content:space-between ;
+    padding-top: 45px;
+    padding-left:8% ;
+    padding-right: 8%;
+}
+.logo{
+    color:white;
+    font-size:35px ;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+.img2n{
+    width:400px;
+    height: 400px;
+    float: right;
+    position: absolute;
+    top: 50%;
+    right: 8%;
+    transform: translateY(-50%);
+}
+span{
+    color:red;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 25px;
+}
+nav ul li a{
+    color:white;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+
+}
+nav ul li a:hover{
+    color: #f9004d;
+    transition: .4s;
+}
+.btn{
+    background-color: #f9004d;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 10px 25px;
+    border-radius: 30px;
+    transition: transform .4s;
+}
+.btn:hover{
+    transform: scale(1.2);
+
+}
+section{
+    color: rgb(254, 251, 251);
+    font-size: 20px;
+}
+ section h1{
+    font-size: 40px;
+    padding-left: 20px;
+    padding-top: 5%;
+    text-align: center;
+}
+section h3{
+    
+    font-size: 35px;
+    text-align: center;
+}
+section p{
+    color: white;
+    padding-top: 10%;
+    text-align: center;
+    padding-left: 200px;
+    padding-right: 200px;
+
+}
