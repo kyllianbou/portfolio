@@ -71,23 +71,7 @@ nav ul li a:hover{
   section {
       display: flex;
       flex-direction: column;
-      gap: 10px;
+      gap: 30px;
+      padding-left: 700px;
+      padding-right: 700px;
   }
-  .img1{
-      padding-left: 400px;
-      padding-right: 400px;
-      height: 200px;
-  }
-  .img2{
-    padding-left: 400px;
-    padding-right: 400px;
-    height: 300px;
-}
-.img3{
-    padding-left: 400px;
-    padding-right: 400px;
-    height: 300px;
-}
-.img4{
-    height: 400px;
-}
